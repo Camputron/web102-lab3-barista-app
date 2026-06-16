@@ -1,0 +1,140 @@
+.title-container {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  color: #6f4e37;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #3d2b1f;
+}
+
+h3 {
+  color: #6f4e37;
+  margin-bottom: 0.5rem;
+}
+
+/* Current drink display */
+.drink-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.drink-card {
+  padding: 0.75rem 2rem;
+  background-color: #fffdf8;
+  border: 1px solid #e0d4c0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(111, 78, 55, 0.12);
+}
+
+.mini-header {
+  font-size: 1.75rem;
+  margin: 0;
+  min-height: 2rem;
+  color: #9c6b3f;
+}
+
+/* Flexbox layout for the form */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  align-items: center;
+  padding: 1.5rem 1.25rem;
+  background-color: #fffdf8;
+  border: 1px solid #e0d4c0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(111, 78, 55, 0.12);
+}
+
+/* Answer boxes */
+.answer-space {
+  background-color: #e7dccb;
+  width: 130px;
+  min-height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #3d2b1f;
+}
+
+/* Correctness states (applied via the id on the answer-space) */
+#wrong {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#correct {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+/* Radio button choices */
+.radio-buttons li {
+  list-style: none;
+  text-align: left;
+  margin: 0.25rem 0;
+  text-transform: capitalize;
+}
+
+.radio-buttons input {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+/* Buttons */
+.button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.submit {
+  background-color: #6f4e37;
+  color: #fff;
+  margin: 0.5rem;
+}
+
+.submit:hover {
+  background-color: #855f44;
+}
+
+.newdrink {
+  background-color: #9c6b3f;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.newdrink:hover {
+  background-color: #b57f50;
+}

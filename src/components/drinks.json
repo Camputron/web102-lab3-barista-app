@@ -1,0 +1,52 @@
+{
+  "drinks": [
+    {
+      "name": "Caffè Mocha",
+      "ingredients": { "temp": "hot", "milk": "cow", "syrup": "mocha", "blended": "no" }
+    },
+    {
+      "name": "Caramel Frappuccino",
+      "ingredients": { "temp": "cold", "milk": "cow", "syrup": "caramel", "blended": "yes" }
+    },
+    {
+      "name": "Vanilla Latte",
+      "ingredients": { "temp": "hot", "milk": "cow", "syrup": "vanilla", "blended": "no" }
+    },
+    {
+      "name": "Iced Caramel Macchiato",
+      "ingredients": { "temp": "cold", "milk": "cow", "syrup": "caramel", "blended": "no" }
+    },
+    {
+      "name": "Cold Brew",
+      "ingredients": { "temp": "cold", "milk": "none", "syrup": "none", "blended": "no" }
+    },
+    {
+      "name": "Toffee Nut Latte",
+      "ingredients": { "temp": "hot", "milk": "cow", "syrup": "toffee", "blended": "no" }
+    },
+    {
+      "name": "Oatmilk Mocha",
+      "ingredients": { "temp": "hot", "milk": "oat", "syrup": "mocha", "blended": "no" }
+    },
+    {
+      "name": "Mocha Frappuccino",
+      "ingredients": { "temp": "cold", "milk": "cow", "syrup": "mocha", "blended": "yes" }
+    },
+    {
+      "name": "Almond Vanilla Latte",
+      "ingredients": { "temp": "hot", "milk": "almond", "syrup": "vanilla", "blended": "no" }
+    },
+    {
+      "name": "Iced Vanilla Oatmilk Latte",
+      "ingredients": { "temp": "cold", "milk": "oat", "syrup": "vanilla", "blended": "no" }
+    },
+    {
+      "name": "Espresso",
+      "ingredients": { "temp": "hot", "milk": "none", "syrup": "none", "blended": "no" }
+    },
+    {
+      "name": "Caramel Crème Frappuccino",
+      "ingredients": { "temp": "cold", "milk": "cow", "syrup": "caramel", "blended": "yes" }
+    }
+  ]
+}
